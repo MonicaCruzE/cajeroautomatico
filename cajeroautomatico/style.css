@@ -1,0 +1,63 @@
+html {
+    background-color:#214c84;
+    background-blend-mode:overlay;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    /* background-image:url(../../assets/img/image4.jpg); */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9H5_S0GxsFJDFtz5pBT1auuskRhkbeiBLOA&usqp=CAU");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100%;
+  }
+  
+  body {
+    background-color:transparent;
+      
+  }
+  
+  .registration-form {
+    padding:50px 0;
+  }
+  
+  .registration-form form {
+    max-width:800px;
+    padding:50px 70px;
+    border-radius:10px;
+    box-shadow:4px 4px 15px rgba(0, 0, 0, 0.2);
+    background-color:#fff;
+    /* width: 300px;
+    height: 300px; */
+  }
+  
+  .registration-form form h3 {
+    font-weight:bold;
+   /* margin-bottom:30px;*/
+  }
+  
+  .registration-form .item {
+    border-radius:10px;
+    margin-bottom:10px;
+    padding:10px 20px;
+  }
+  
+   .mensajeError{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #b06ab3;
+    padding-top: 10px;
+
+  }
+    .imagenCandado{
+    position: absolute;
+    width:80px ;
+    align-content: center;
+  }
+
+  @media (max-width: 576px) {
+    .registration-form form {
+      padding:50px 20px;
+    }
+  }
+  
